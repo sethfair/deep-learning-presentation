@@ -9,7 +9,7 @@ digraph {
     "4 Tires" -> "14";
     "4 Doors" -> "14";
     "6 Windows" -> "14";
-    "14" -> "Output" [label="Is > 1?", fontcolor="crimson"];
+    "14" -> "Is a car?" [label="Is > 1?", fontcolor="crimson"];
     
     "14" [color="crimson", fontcolor="crimson"]
 }
