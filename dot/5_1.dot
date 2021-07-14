@@ -6,8 +6,10 @@ digraph {
     splines=line
     rankdir=LR;
     node [shape="circle", fontsize=12];
-    "Input 1" -> "Neuron";
-    "Input 2" -> "Neuron";
-    "Input 3" -> "Neuron";
-    "Neuron" -> "Output" [label="is >1", fontcolor="crimson"];
+    "4 Tires" -> "14";
+    "4 Doors" -> "14";
+    "6 Windows" -> "14";
+    "14" -> "Output" [label="Is > 1?", fontcolor="crimson"];
+    
+    "14" [color="crimson", fontcolor="crimson"]
 }
