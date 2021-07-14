@@ -1,0 +1,15 @@
+digraph {
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    bgcolor=transparent;
+    splines=line
+    rankdir=LR;
+    node [shape="circle", fontsize=12];
+    "1.0" -> "1.6";
+    "0.1" -> "1.6";
+    "0.5" -> "1.6";
+    "1.6" -> "Output";
+    
+    "1.6" [color="crimson", fontcolor="crimson"]
+}
