@@ -1,0 +1,12 @@
+digraph {
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    splines=line
+    rankdir=LR;
+    node [shape="circle", fontsize=12];
+    "1" -> "Neuron";
+    "0.1" -> "Neuron";
+    "0.5" -> "Neuron";
+    "Neuron";
+}
