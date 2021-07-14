@@ -6,10 +6,10 @@ digraph {
     splines=line
     rankdir=LR;
     node [shape="circle", fontsize=12];
-    "4 Tires" -> "14" [label=" x 0.9", fontsize=10, fontcolor="dodgerblue"];
-    "4 Doors" -> "14" [label="x 0.10", fontsize=10, fontcolor="dodgerblue"];
-    "6 Windows" -> "14"[label="x 0.50", fontsize=10, fontcolor="dodgerblue"];
-    "14" -> "Is a car?" [label="Is > 1?", fontcolor="crimson"];
+    "4 Tires" -> "4.5" [label=" x 0.50", fontsize=10, fontcolor="dodgerblue"];
+    "4 Doors" -> "4.5" [label="x 0.25", fontsize=10, fontcolor="dodgerblue"];
+    "6 Windows" -> "4.5"[label="x 0.25", fontsize=10, fontcolor="dodgerblue"];
+    "4.5" -> "Is a car?" [label="Is > 1?", fontcolor="crimson"];
     
-    "14" [color="crimson", fontcolor="crimson"]
+    "4.5" [color="crimson", fontcolor="crimson"]
 }
