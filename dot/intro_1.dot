@@ -1,0 +1,10 @@
+digraph {
+
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    splines=line
+    rankdir=LR;
+    node [shape="circle", fontsize=8];
+   "input" -> "process" -> "output"
+}
