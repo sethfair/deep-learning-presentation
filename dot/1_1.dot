@@ -5,8 +5,5 @@ digraph {
     splines=line
     rankdir=LR;
     node [shape="circle", fontsize=12];
-    "Input 1" -> "Neuron";
-    "Input 2" -> "Neuron";
-    "Input 3" -> "Neuron";
-    "Neuron" -> "Output";
+    "Neuron"
 }
