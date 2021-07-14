@@ -1,0 +1,15 @@
+digraph {
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    bgcolor=transparent;
+    splines=line
+    rankdir=LR;
+    node [shape="circle", fontsize=12];
+    "4 Tires" -> "12";
+    "2 Doors" -> "12";
+    "6 Windows" -> "12";
+    "12" -> "Is a car?" [label="Is > 1?", fontcolor="crimson"];
+    
+    "12" [color="crimson", fontcolor="crimson"]
+}
