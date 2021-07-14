@@ -2,6 +2,7 @@ digraph {
     graph [fontname = "Handlee"];
     node [fontname = "Handlee"];
     edge [fontname = "Handlee"];
+    bgcolor=transparent;
     splines=line
     rankdir=LR;
     node [shape="circle", fontsize=12];
