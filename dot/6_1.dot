@@ -1,0 +1,17 @@
+digraph {
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    bgcolor=transparent;
+    splines=line
+    rankdir=LR;
+    node [shape="circle", fontsize=12];
+    i1 -> a1;
+    i2 -> a1;
+    a1-> output;
+    
+    subgraph cluster_0 {
+        label="Input Layer"
+        {i1, i2}
+    }
+}
