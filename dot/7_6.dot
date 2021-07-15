@@ -1,0 +1,38 @@
+digraph {
+    graph [fontname = "Handlee"];
+    node [fontname = "Handlee"];
+    edge [fontname = "Handlee"];
+    bgcolor=transparent;
+    splines=line
+    rankdir=RL;
+    node [shape="circle", fontsize=12];
+    {a1, a2, a3} -> {i1, i2};
+    {b1, b2, b3} -> {a1, a2, a3};
+    {c1, c2, c3} -> {b1, b2, b3} [color="crimson"];
+    {o1, o2} -> {c1, c2, c3};
+    
+    subgraph cluster_0 {
+        label="Input Layer"
+        {i1, i2}
+    }
+    
+    subgraph cluster_1 {
+        label="Hidden Layer 1"
+        {a1, a2, a3}
+    }
+    
+    subgraph cluster_2 {
+        label="Hidden Layer 2"
+        {b1, b2, b3}
+    }
+    
+    subgraph cluster_3 {
+        label="Hidden Layer 3"
+        {c1, c2, c3}
+    }
+    
+    subgraph cluster_4 {
+        label="Output Layer"
+        {o1, o2}
+    }
+}
